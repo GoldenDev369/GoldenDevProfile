@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+    <style>
+        body {
+            background-color: black;
+            font-family:Arial, Helvetica, sans-serif;
+            color: gold;
+            margin: 0;
+            padding: 10px;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.53);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        header b {
+            margin: 10px;
+        }
+        .header-anchor a {
+            text-decoration: none;
+            color: gold;
+            display:inline-block;
+            padding: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .header-anchor a:hover {
+            background-color: rgba(0, 0, 0, 0.53);
+            color: green;
+        }
+        .header-anchor a:active {
+            background-color: rgba(0, 0, 0, 0.53);
+            color: orange;
+        }
+        .explain {
+            margin-top: 15%;
+            animation: blink-caret 0.75s step-end infinite;
+            border-left: 0.15em solid green;
+            border-top: 0.15em solid green;
+            border-right:0.15em solid green;
+            border-bottom:0.15em solid green;
+            border-radius: 20px;
+        }
+        .content {
+            padding: 20px;
+            box-shadow: 0 0 10px orange;
+            margin-top: 10%;
+            border-radius: 15px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin: 20px 0;
+            color: Green;
+        }
+        .row {
+            display:flex;
+            overflow-x: auto;
+            padding-bottom: 20px;
+        }
+        ::-webkit-scrollbar {
+            width: 12px;
+            display: none;
+        }
+        .card {
+            flex: 0 0 auto;
+            width: 300px;
+            margin-right: 20px;
+            background-color: rgba(128, 128, 128, 0.144);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 2px gold;
+            transition: 1s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px;
+            font-size: 1.2em;
+        }
+        .card p {
+            margin: 10px;
+            font-size: 0.9em;
+        }
+        .top {
+            position: fixed;
+            top: 90%;
+            background-color: rgba(0, 128, 0, 0.313);
+            padding: 5px;
+            border-radius: 6px;
+            right: 5%;
+            transition: 0.1s;
+        }
+        .top a {
+            text-decoration:none;
+            color:gold;
+        }
+        .top:active {
+            background-color:rgba(0, 0, 0, 0.434);
+        }
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: yellowgreen }
+        }    
+    </style>
+</head>
+<body>
+    <header>
+        <b>GOLDEN DEVELOPER 369</b>
+        <div class="header-anchor">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </header>
+    <section class="explain">
+        <center><p><b>check out these sample projects below</b></p>
+    </section>
+    <div class="content">
+        <div class="section-title"><b>GOLDEN DEV PROFILE</b></div>
+        <div class="row">
+            <div class="card">
+                <img src="images/GD home capture.png" alt="golden dev home">
+                <h3>HOME PAGE</h3>
+                <p>Golden Dev profile Home page</p>
+                <p>A profile website for golden developer 369.</p>
+            </div>
+            <div class="card">
+                <img src="images/GD contact capture.png" alt="golden dev contact">
+                <h3>CONTACT PAGE</h3>
+                <p>Golden Dev profile contact page.</p>
+            </div>
+            <div class="card">
+                <img src="images/gD projecs capture.png" alt="golden dev projects">
+                <h3>PROJECTS PAGE</h3>
+                <p>Golden Dev profile projects page. showing image proofs of worked projects.</p>
+            </div>
+        </div>
+        <div class="section-title"><b>CHEK TV SHOW</b></div>
+        <div class="row">
+            <div class="card">
+                <img src="" alt="">
+                <h3>HOME PAGE</h3>
+                <p>A free entertainment website to kill boredom.</p>
+                <p>coming soon.....</p>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>ENTERTAINMENT PAGE</h3>
+                <p>coming soon.....</p>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>ABOUT PAGE</h3>
+                <p>coming soon.....</p>
+            </div>
+        </div>
+        <div class="section-title"><b>CRYPTO KING</b></div>
+        <div class="row">
+            <div class="card">
+                <img src="images/ck home capture.png" alt="cryptoking home page">
+                <h3>HOME PAGE</h3>
+                <p>Crypto King Home page.</p>
+                <p>An investment website that deals with cryptocurrency and is strictly accessible by users only.No users private data , only users wallet addres and a unique username. The registered wallet address is users identity, used for deposits and withdraws.</p>
+            </div>
+            <div class="card">
+                <img src="images/ck deposit capture.png" alt="cryptoking deposit page">
+                <h3>DEPOSIT PAGE</h3>
+                <p>Crypto King Deposit Page.</p>
+            </div>
+            <div class="card">
+                <img src="images/CK terms&condition capture.png" alt="cryptoking deposit page">
+                <h3>TERMS & CONDITION PAGE</h3>
+                <p>Crypto King terms and condition Page.</p>
+            </div>
+            <div class="card">
+                <img src="images/ck sign capture.png" alt="CRYPTOKIN SUGN UP PAGE">
+                <h3>SIGN UP PAGE</h3>
+                <p>Crypto King SignUP/SignIn page.</p>
+            </div>
+        </div>
+        <div class="section-title"><b>ZON NETWORK</b></div>
+        <div class="row">
+            <div class="card">
+                <img src="" alt="">
+                <h3>HOME PAGE</h3>
+                <p>A cryptocurrency mining platform.</p>
+                <p>coming soon.....</p>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>MINING PAGE</h3>
+                <p>coming soon.....</p>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>WITHDRAW PAGE</h3>
+                <p>coming soon.....</p>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>DASHBOARD PAGE</h3>
+                <p>coming soon.....</p>
+            </div>
+        </div>
+        <br>
+    <center><b>&copy;GOLDEN DEVELOPER 369</b></center>
+    </div>
+    <div class="top">
+        <a href="#"><b>TOP</b></a>
+    </div>
+</body>
+</html>
